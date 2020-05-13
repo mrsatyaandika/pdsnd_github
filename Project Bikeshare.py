@@ -25,10 +25,10 @@ def get_filters():
         city = input("Your selection is not in the menu, please select between chicago, new york city, or washington: ").lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-    month = input("Which month do you want to see? between january to june, or all?: ").lower()
+    months = ['january', 'february', 'march', 'april', 'may', 'june', 'none']
+    month = input("Which month do you want to see? between january to june, or none?: ").lower()
     while month not in months:
-        month = input("Your selection is not in the menu, please select between january to june, or all: ").lower()
+        month = input("Your selection is not in the menu, please select between january to june, or none: ").lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
