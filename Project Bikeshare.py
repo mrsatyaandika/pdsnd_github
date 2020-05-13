@@ -171,10 +171,10 @@ def raw_data(df):
     to_row = 0
     see_rows = input("Do you like to see the raw data?: ")
     while see_rows.lower() == 'yes':
-        to_row += 5
+        to_row += 10
         print(df.iloc[from_row:to_row])
         from_row = to_row
-        see_rows = input("Do you like to see the next 5 rows?: ")
+        see_rows = input("Do you like to see the next 10 rows?: ")
 
 def main():
     while True:
